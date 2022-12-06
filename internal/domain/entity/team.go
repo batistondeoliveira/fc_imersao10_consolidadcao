@@ -3,7 +3,7 @@ package entity
 type Team struct {
 	ID      string
 	Name    string
-	Players []*Player
+	Players []string
 }
 
 func NewTeam(id, name string) *Team {
